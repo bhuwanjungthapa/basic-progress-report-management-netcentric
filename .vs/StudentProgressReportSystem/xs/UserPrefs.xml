@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{7759EFF7-0A25-4310-AB84-4305D8BC1EFB}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.StudentProgressReportSystem PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="StudentProgressReportSystem/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="StudentProgressReportSystem/Views/Auth/Login.cshtml" Line="1" Column="1" />
+      <File FileName="StudentProgressReportSystem/Views/Shared/_Layout.cshtml" Line="14" Column="118" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StudentProgressReportSystem" expanded="True">
+            <Node name="StudentProgressReportSystem" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Auth" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
