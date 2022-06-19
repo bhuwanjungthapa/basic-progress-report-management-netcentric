@@ -2,13 +2,14 @@
        Layout = "~/Views/Shared/_Blank.cshtml";
        ViewData["Title"] = "Login";
 }
-<div class="hold-transition login-page">
+<div class="hold-transition login-page" style=" text-align:center; background-image: url('https://2.bp.blogspot.com/-jvHg7Zv61GA/W8MrFPlkiMI/AAAAAAAACBQ/JTKBCUGKeA4nWlfonZZBCrAGCgKbXXuUwCEwYBhgL/s1600/School%2BAssembly2.jpg');height: 100vh;">
 <div class="login-box">
-  <div class="login-logo">
-    <a href="#"><b>Student Progress Report System</b></a>
-  </div>
+
   <!-- /.login-logo -->
   <div class="card">
+        <div class="login-logo">
+    <a asp-controller="Home" asp-action="Index"><b>Student Progress Report System</b></a>
+  </div>
     <div class="card-body login-card-body">
       <p class="login-box-msg">Sign in to start your session</p>
 
@@ -50,7 +51,7 @@
         <a href="#">I forgot my password</a>
       </p>
       <p class="mb-0">
-        <a href="#" class="text-center">Register a new membership</a>
+        <a asp-controller="Auth" asp-action="Signup" class="text-center">Register a new membership</a>
       </p>
     </div>
     <!-- /.login-card-body -->

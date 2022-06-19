@@ -12,13 +12,14 @@
         "></div>
   <!-- Background image -->*@
 
- <div class="hold-transition register-page">
-  <div class="register-box">
-  <div class="register-logo">
-    <a href="#"><b>Student Progress Report System</b></a>
-  </div>
+ <div class="hold-transition register-page"style=" text-align:center; background-image: url('https://2.bp.blogspot.com/-jvHg7Zv61GA/W8MrFPlkiMI/AAAAAAAACBQ/JTKBCUGKeA4nWlfonZZBCrAGCgKbXXuUwCEwYBhgL/s1600/School%2BAssembly2.jpg');height: 100vh">
+  <div class="register-box" >
+
 
   <div class="card">
+        <div class="register-logo">
+    <a asp-controller="Home" asp-action="Index"><b>Student Progress Report System</b></a>
+  </div>
     <div class="card-body register-card-body">
       <p class="login-box-msg">Register a new membership</p>
 
@@ -73,7 +74,7 @@
       </form>
 
 
-      <a href="#" class="text-center">I already have a membership</a>
+      <a asp-controller="Auth" asp-action="Login" class="text-center">I already have a membership</a>
     </div>
     <!-- /.form-box -->
   </div><!-- /.card -->
