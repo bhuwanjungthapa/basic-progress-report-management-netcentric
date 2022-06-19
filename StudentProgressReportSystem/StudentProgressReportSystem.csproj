@@ -6,5 +6,6 @@
 
   <ItemGroup>
     <None Remove="Views\Auth\" />
+    <None Remove="Views\Class\" />
   </ItemGroup>
 </Project>

@@ -1,27 +1,32 @@
 ﻿<Properties StartupConfiguration="{7759EFF7-0A25-4310-AB84-4305D8BC1EFB}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.StudentProgressReportSystem PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.StudentProgressReportSystem PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="StudentProgressReportSystem/Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StudentProgressReportSystem/Views/Class/Index1.cshtml">
     <Files>
       <File FileName="StudentProgressReportSystem/Views/Auth/Login.cshtml" Line="1" Column="1" />
       <File FileName="StudentProgressReportSystem/Views/Shared/_Layout.cshtml" Line="14" Column="118" />
+      <File FileName="StudentProgressReportSystem/Views/Home/Index.cshtml" Line="6" Column="6" />
+      <File FileName="StudentProgressReportSystem/Views/Home/Dashboard.cshtml" Line="2" Column="5" />
+      <File FileName="StudentProgressReportSystem/Views/Shared/_dash.cshtml" Line="66" Column="22" />
+      <File FileName="StudentProgressReportSystem/Views/Shared/_Index.cshtml" Line="10" Column="26" />
+      <File FileName="StudentProgressReportSystem/Views/Class/Index1.cshtml" Line="35" Column="33" />
+      <File FileName="StudentProgressReportSystem/Controllers/ClassController.cs" Line="14" Column="28" />
+      <File FileName="StudentProgressReportSystem/Controllers/AuthController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="StudentProgressReportSystem" expanded="True">
             <Node name="StudentProgressReportSystem" expanded="True">
+              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Auth" expanded="True" />
+                <Node name="Class" expanded="True" />
                 <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
-                </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True" />
               <Node name="appsettings.json" expanded="True" />
@@ -34,4 +39,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
 </Properties>
